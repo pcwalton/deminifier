@@ -72,11 +72,11 @@ body {
 
 #back {
     position: absolute;
-    left: 6px;
     top: -moz-calc(50% - 8px);
+    right: 6px;
     opacity: 0.5;
-    background: url(prev-icon-black.png),
-        url(prev-icon-white.png) 0 1px no-repeat;
+    background: url(next-icon-black.png),
+        url(next-icon-white.png) 0 1px no-repeat;
     border: none;
     width: 16px;
     height: 16px;
