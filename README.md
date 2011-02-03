@@ -1,5 +1,5 @@
-This is the deminifier add-on.  It contains:
+Thanks to:
 
-* A program (lib/main.js).
-* A few tests.
-* Some meager documentation.
+* gentleface.com for the Back icon: http://gentleface.com/ See that page for
+  its license.
+

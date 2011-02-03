@@ -1,8 +1,10 @@
 {
-  "name": "deminifier",
-  "fullName": "deminifier",
-  "description": "a basic add-on",
-  "author": "",
-  "license": "MPL 1.1/GPL 2.0/LGPL 2.1",
-  "version": "0.1"
+    "name": "deminifier",
+    "license": "MPL 1.1/GPL 2.0/LGPL 2.1",
+    "author": "Patrick Walton",
+    "version": "0.1",
+    "fullName": "deminifier",
+    "id": "jid0-urNntxBDUXSAGTXY2gB7KQmd4nU", 
+    "description": "Simple JavaScript deminifier"
 }
+

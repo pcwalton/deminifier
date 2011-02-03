@@ -1,0 +1,35 @@
+.deminify-button {
+    background: -moz-linear-gradient(top, #7089b3, #a5b8da);
+    border-top: 1px solid #758fba;
+    border-right: 1px solid #6c84ab;
+    border-bottom: 1px solid #5c6f91;
+    border-left: 1px solid #6c84ab;
+    border-radius: 6px;
+    margin: 0 6px;
+    box-shadow: inset 0 1px 0 0 #aec3e5;
+    color: #fff;
+    font: bold 10px "Helvetica Neue", sans-serif;
+    text-shadow: 0 -1px 1px #64799e;
+    text-transform: uppercase;
+}
+
+.deminify-all {
+    position: absolute;
+    top: 6px;
+    right: 0;
+}
+
+.deminify-button:hover {
+    background: -moz-linear-gradient(top, #687fa6, #9badcc);
+    border-top: 1px solid #6d86ad;
+    border-right: 1px solid #647a9e;
+    border-bottom: 1px solid #546685;
+    border-left: 1px solid #647a9e;
+    box-shadow: inset 0 1px 0 0 #a5b9d9;
+}
+
+.deminify-button:active {
+    border: 1px solid #546685;
+    box-shadow: inset 0 0 8px 2px #7e8da6, 0 1px 0 0 #eee;
+}
+

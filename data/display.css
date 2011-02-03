@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#backdrop {
+    background-color: #000000;
+    -moz-transition: opacity 500ms;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#panel {
+    box-shadow: 0 0 48px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 6px 0 0 6px;
+    position: absolute;
+    left: 64px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    -moz-transition: -moz-transform 500ms ease-out;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#source-container {
+    font: 12px Menlo, "Lucida Console", "DejaVu Sans Mono", "Droid Sans Mono";
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    position: absolute;
+    top: 29px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
+
+#source {
+    position: absolute;
+    padding: 6px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#header {
+    text-align: center;
+    background: -moz-linear-gradient(top, #e8e8e8, #d0d0d0);
+    color: #404040;
+    border-bottom: 1px solid #636363;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 28px;
+    right: 0;
+    box-shadow: 0 0 9px 3px rgba(0, 0, 0, 0.25);
+}
+
+#header-h1 {
+    margin: 0;
+    padding: 4px;
+    font: bold 16px "Helvetica Neue", sans-serif;
+    text-shadow: 0 1px 1px #fff;
+    -moz-user-select: none;
+    cursor: default;
+}
+
+#back {
+    position: absolute;
+    left: 6px;
+    top: -moz-calc(50% - 8px);
+    opacity: 0.5;
+    background: url(prev-icon-black.png),
+        url(prev-icon-white.png) 0 1px no-repeat;
+    border: none;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+#back:hover {
+    opacity: 0.75;
+}
+
+#back:active {
+    opacity: 1.0;
+}
+
+/* Based on the "Pyte" theme from http://leetless.de */
+
+.jsstring {
+    color: #5b3674;
+}
+
+.jskeyword {
+    color: #1060a0;
+}
+
+.jsnumber {
+    color: #2070a0;
+}
+
+.jscomment {
+    color: #007020;
+}
+
